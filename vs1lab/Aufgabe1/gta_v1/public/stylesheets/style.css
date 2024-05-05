@@ -51,9 +51,8 @@ a {
 
 .row {
   width: 100%;
-  display: flex;
-  justify-content: space-between;
-  flex: 1;
+  display: grid;
+  ;
 }
 
 .col-1 {
@@ -147,7 +146,7 @@ a {
 .main{
   display: flex;
   flex-wrap: wrap;
-  flex:auto;
+  flex: auto;
 }
 
 .main h2{
@@ -205,15 +204,14 @@ a {
   padding: 1rem;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   flex: 1 1 calc (100%-300px);
 }
 
 .discovery__search{
-  display: block;
   flex-direction: column;
   justify-content: space-between;
   margin-left: 2rem;
+  display: flex;
 }
 
 .discovery__wrapper{
